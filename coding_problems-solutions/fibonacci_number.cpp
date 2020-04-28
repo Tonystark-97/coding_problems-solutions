@@ -4,7 +4,7 @@ using namespace std;
 
 int find_fibonacci(int n)
 {
-	vector<int> F(n+1);
+	vector<int> F(n+2);
 	F[0]=0;
 	F[1]=1;
 	for(int i=2;i<n+2;i++)
